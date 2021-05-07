@@ -1,0 +1,9 @@
+{
+    "domain": "transilien_rer",
+    "name": "Prochain RER",
+    "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": ["requests", "datetime"],
+    "version": "0.1.0"
+}
