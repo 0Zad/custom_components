@@ -125,7 +125,8 @@ class train:
     def autentification(self, ):
         # A faire au moins une fois par heure
         # -----------------------------------
-        import requests, settings
+        import requests
+        from . import settings
         urlOAuth = 'https://as.api.iledefrance-mobilites.fr/api/oauth/token'
         client_id = settings.client_id,
         client_secret = settings.client_secret
